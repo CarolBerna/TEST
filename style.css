@@ -516,3 +516,20 @@ background-position: top 55% right 50%;
   color: #fff;
   font-weight: 600;
 }
+#pagination a i{
+  font-size: 16px;
+  font-weight: 600;
+}
+/*single product styling*/
+#prodetails .single-pro-image{
+  width: 100%;
+  margin-right: 50px;
+}
+.small-img{
+  display:flex;
+  justify-content: space-between;
+}
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
