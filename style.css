@@ -464,7 +464,7 @@ footer .copyright{
   text-align: center;
 }
 #page-header.about-header{
-background-image: url(Pink\ Blue\ Pastel\ Minimalist\ New\ Arrival\ Sneakers\ Sale\ Instagram\ Post\ \(1\).png);
+background-image: url(Running\ Shoes\ Store\ Header.png);
 height: 45vh;
   width: 100%;
 background-size: cover;
@@ -474,7 +474,7 @@ background-position: top 55% right 50%;
 #page-header.about-header h2{
   text-align: center;
   padding-top: 40px;
-  color: #2ebdae;
+  color: #000000;
   
 }
 #about-head {
@@ -482,6 +482,15 @@ background-position: top 55% right 50%;
   align-items: center;
 }
 #about-head{
+  padding-left: 40px;
+}
+#about-head p{
+  padding-left: 40px;
+}
+#about-head h2{
+  padding-left: 40px;
+}
+#about-head marquee{
   padding-left: 40px;
 }
 #about-head img{
@@ -521,6 +530,11 @@ background-position: top 55% right 50%;
   font-weight: 600;
 }
 /*single product styling*/
+
+#prodetails{
+  display: flex;
+  margin-top: 20px;
+}
 #prodetails .single-pro-image{
   width: 100%;
   margin-right: 50px;
@@ -532,4 +546,65 @@ background-position: top 55% right 50%;
 .small-img-col{
   flex-basis: 24%;
   cursor: pointer;
+}
+#prodetails .single-pro-details{
+  width: 90%;
+  padding-top: 30px;
+}
+#prodetails .single-pro-details{
+  padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+  font-size: 26px;
+}
+#prodetails .single-pro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#prodetails .single-pro-details input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+#prodetails .single-pro-details input:focus{
+  outline: none;
+}
+
+#prodetails .single-pro-details button{
+  background: #088178;
+  color: #fff;
+} 
+#prodetails .single-pro-details span{
+  line-height: 25px;
+}
+.blogheader{
+  background-image:url(Green\ and\ White\ Simple\ Blog\ Post\ Guide\ LinkedIn\ Article\ Cover\ Image\ .png)  ;
+  height: 48vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 55% right 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+/*blog style*/
+
+.blogheader p{
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-left: 500px;
+}
+.blogheader h2{
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-left: 500px;
+}
+#blog .blog-details a{
+  text-decoration: none;
 }
