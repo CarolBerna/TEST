@@ -580,6 +580,7 @@ background-position: top 55% right 50%;
 #prodetails .single-pro-details span{
   line-height: 25px;
 }
+/*blog style*/
 .blogheader{
   background-image:url(Green\ and\ White\ Simple\ Blog\ Post\ Guide\ LinkedIn\ Article\ Cover\ Image\ .png)  ;
   height: 48vh;
@@ -591,8 +592,14 @@ background-position: top 55% right 50%;
   align-items: flex-start;
   justify-content: center;
 }
-/*blog style*/
-
+#blog{
+  padding: 150px 150px 0 150px;
+}
+#blog .blog-box{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
 .blogheader p{
   align-items: center;
   justify-content: center;
@@ -607,4 +614,30 @@ background-position: top 55% right 50%;
 }
 #blog .blog-details a{
   text-decoration: none;
+  font-size: 11px;
+  color: #000;
+  font-weight: 700;
+
+}
+blog .blog-details a::after{
+  content: "";
+  width: 50%;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  top: 4px;
+  right: -60px;
+}
+#blog .blog-details{
+  width: 50%;
+}
+#blog .blog-img{
+  width: 50%;
+  margin-right: 40px;
+
+}
+#blog img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
