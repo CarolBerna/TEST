@@ -110,6 +110,10 @@ body{
   bottom: -4px;
   left:  20px;
 }
+#mobile{
+  display: none;
+  align-self: center;
+}
 
 #hero{
   background-image:url("https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=1024x1024&w=is&k=20&c=7Uv2GcAUuGaKLk6pQ8Ky-sgT0-ptlsK9NWDNzpk9euI=")  ;
@@ -750,9 +754,53 @@ color: #088178;
   #form-details button{
     background-color: #088178;
     color: #fff;
-  }
+   }
   #form-details{
     margin: 30px;
     padding-left: 300px;
     border: 1px solid color(#e1e1e1) ;
+  }
+  @media(max-width:799px){
+    #navbar {
+      display: flex;
+      flex-direction: column;
+      align-items:flex-start;
+      justify-content: flex-start;
+      position: fixed;
+      top: 0;
+      right: -300px;
+      height: 100vh;
+      width: 300px;
+      background-color: #E3E6F3;
+      box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+      padding: 80px 0 0 10px;
+      transition: 0.3s;
+  }
+  #navbar .active{
+    right: 0px;
+    
+   }
+ 
+  #navbar li{
+    margin-bottom:25px;
+  }
+  #mobile{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+ #mobile i{
+ color: #1a1a1a;
+ font-size: 24px;
+ padding-left: 20px;
+ }
+ #close{
+  position: absolute;
+  top: 10px;
+  left:30px;
+  font-size: 24px;
+  color: #222;
+  margin-bottom:25px;
+
+}
   }
