@@ -777,7 +777,7 @@ color: #088178;
       transition: 0.3s;
   }
   #navbar .active{
-    right: 0px;
+    right: 5px;
     
    }
  
