@@ -506,20 +506,22 @@ background-position: top 55% right 50%;
 /*shop styling*/
 
 .shopheader{
-  background-image:url(shopwithus.png)  ;
+  background-image:url(shopnewwww.png)  ;
   height: 48vh;
   width: 100%;
   background-size: cover;
   background-position: top 55% right 50%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  
   justify-content: center;
 }
 .shopheader h2{
   color: #067069;
+  text-align: center;
 }
 .shopheader p{
+  text-align: center;
   color: #000002;
 }
 #pagination{
