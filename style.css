@@ -115,6 +115,15 @@ body{
   align-self: center;
 }
 
+#close{
+  display: none; /* Hide the close button by default in desktop view */
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 24px;
+  color: #222;
+}
+
 #hero{
   background-image:url("https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=1024x1024&w=is&k=20&c=7Uv2GcAUuGaKLk6pQ8Ky-sgT0-ptlsK9NWDNzpk9euI=")  ;
   height: 90vh;
@@ -789,15 +798,7 @@ color: #088178;
  font-size: 24px;
  padding-left: 20px;
  }
- #close{
-  position: absolute;
-  top: 10px;
-  left:30px;
-  font-size: 24px;
-  color: #222;
-  margin-bottom:25px;
-
-}
+  #navbar.active #close{  display: block;}
 #hero{
   height: 70vh;
   padding: 0 80px;
