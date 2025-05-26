@@ -275,7 +275,7 @@ font-size: 12px;
   justify-items: center;
   align-items: center;
   text-align: center;
-  background-image: url(Blue\ Simple\ Special\ Offer\ Big\ Sale\ Banner\ Landscape.png);
+  background-image: url("images/banners/Blue\ Simple\ Special\ Offer\ Big\ Sale\ Banner\ Landscape.png");
   width: 100%;
   height: 90vh;
   background-size: cover;
@@ -315,14 +315,14 @@ font-size: 12px;
   align-items: flex-start;
   padding: 100px 50px;
   color: white;
-  background-image: url("Untitled\ design.png");
+  background-image: url("images/Untitled\ design.png");
   min-width: 580px;
   height: 50vh;
   background-size: cover;
   background-position: center;
 }
 #sm-banner .banner-box2{
-  background-image: url("Red\ and\ White\ Modern\ Shoe\ Special\ Edition\ Flyer.png");
+  background-image: url("images/marketing/Red\ and\ White\ Modern\ Shoe\ Special\ Edition\ Flyer.png");
 
 }
 #sm-banner .banner-box h4{
@@ -352,7 +352,7 @@ border: 1px solid #088178;
   justify-items: center;
   align-items: flex-start;
   padding: 60px;
-  background-image: url("Black\ and\ Cyan\ Simple\ New\ Sneakers\ Shoes\ Promotion\ Instagram\ Post.png");
+  background-image: url("images/marketing/Black\ and\ Cyan\ Simple\ New\ Sneakers\ Shoes\ Promotion\ Instagram\ Post.png");
   min-width: 30px;
   height: 30vh;
   background-size: cover;
@@ -360,10 +360,10 @@ border: 1px solid #088178;
   margin-bottom: 20px;
   }
   #banner3 .banner-box2{
-    background-image: url("New\ Arrival\ Shoe\ Sale\ Facebook\ Post.png");
+    background-image: url("images/marketing/New\ Arrival\ Shoe\ Sale\ Facebook\ Post.png");
   }
   #banner3 .banner-box3{
-    background-image: url("Black\ And\ White\ Shoe\ Sale\ Instagram\ Post.png");
+    background-image: url("images/marketing/Black\ And\ White\ Shoe\ Sale\ Instagram\ Post.png");
   }
 
 #banner3 .banner-box h2{
@@ -388,7 +388,7 @@ border: 1px solid #088178;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url("Blue\ Minimalist\ Big\ Sale\ Banner.png");
+  background-image: url("images/banners/Blue\ Minimalist\ Big\ Sale\ Banner.png");
   background-repeat: no-repeat;
   background-position: 20% 30%;
 }
@@ -467,7 +467,7 @@ footer .copyright{
   text-align: center;
 }
 #page-header.about-header{
-background-image: url(Running\ Shoes\ Store\ Header.png);
+background-image: url("images/banners/Running\ Shoes\ Store\ Header.png");
 height: 45vh;
   width: 100%;
 background-size: cover;
@@ -515,7 +515,7 @@ background-position: top 55% right 50%;
 /*shop styling*/
 
 .shopheader{
-  background-image:url(shopnewwww.png)  ;
+  background-image:url("images/marketing/shopnewwww.png")  ;
   height: 48vh;
   width: 100%;
   background-size: cover;
@@ -601,7 +601,7 @@ background-position: top 55% right 50%;
 }
 /*blog style*/
 .blogheader{
-  background-image:url(Green\ and\ White\ Simple\ Blog\ Post\ Guide\ LinkedIn\ Article\ Cover\ Image\ .png)  ;
+  background-image:url("images/marketing/Green\ and\ White\ Simple\ Blog\ Post\ Guide\ LinkedIn\ Article\ Cover\ Image\ .png")  ;
   height: 48vh;
   width: 100%;
   background-size: cover;
@@ -684,7 +684,7 @@ color: #088178;
 }*/
 /*contact-page*/
 #page-header.about-header{
-  background-image: url(Running\ Shoes\ Store\ Header.png);
+  background-image: url("images/banners/Running\ Shoes\ Store\ Header.png");
   height: 45vh;
     width: 100%;
   background-size: cover;
